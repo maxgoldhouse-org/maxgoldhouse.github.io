@@ -15,7 +15,7 @@ handlers:
     upload: favicon.ico
   - url: /static/uploads/(.*\.(bmp|gif|ico|jpeg|jpg|png))
     static_files: static/uploads/\1
-    upload: static/(.*\.(bmp|gif|ico|jpeg|jpg|png))
+    upload: static/uploads/(.*\.(bmp|gif|ico|jpeg|jpg|png))
   - url: /(.*\.(bmp|gif|ico|jpeg|jpg|png))
     static_files: static/\1
     upload: static/(.*\.(bmp|gif|ico|jpeg|jpg|png))
