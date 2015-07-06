@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+  
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" />
+    <style>
+      .cover ul { list-style-type: none; padding-left: 0;}
+    </style>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Project name</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active">
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <a href="#about">About</a>
+            </li>
+            <li>
+              <a href="#contact">Contact</a>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li>
+                  <a href="#">Action</a>
+                </li>
+                <li>
+                  <a href="#">Another action</a>
+                </li>
+                <li>
+                  <a href="#">Something else here</a>
+                </li>
+                <li class="divider"></li>
+                <li class="dropdown-header">Nav header</li>
+                <li>
+                  <a href="#">Separated link</a>
+                </li>
+                <li>
+                  <a href="#">One more separated link</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a href="../navbar/">Default</a>
+            </li>
+            <li>
+              <a href="../navbar-static-top/">Static top</a>
+            </li>
+            <li>
+              <a href="./">Fixed top <span class="sr-only">(current)</span></a>
+            </li>
+          </ul>
+        </div>
+        <!--/.nav-collapse -->
+      </div>
+    </nav>
+    <!-- FRONT PAGE FROM HERE -->
+    <div class="cover">
+      <div class="background-image-fixed cover-image" style="background-image : url('https://lh3.googleusercontent.com/-EK3vazbT84g/VYiVU_mwr3I/AAAAAAAAAC8/pT54SoDYsVo/s0/suspended.jpg')"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-left" style="xbackground-image: url('https://lh3.googleusercontent.com/-GBvSCPfRO3g/VYUbTQFQnEI/AAAAAAAAAA8/YaFXmIxCkBM/s36/toptile.png');background-repeat: repeat-x;">
+            <p class="price editable">Responsive Websites, Blogs &amp; Web Apps<br />Expertly Crafted<br />For <span class="text-warning" id="whofor" style="display: inline;">Teachers and Trainers</span> <!--<br>Hosted Securely in the Cloud--><br /><span style="font-size: 0.6em">Prices from &pound;1200</span><br />&nbsp;</p>
+            <script>
+              var arrwhofor = ['Solo Entrepreneurs','SMBs','Charities and Campaigners','Therapists','Teachers and Trainers','Modern Organisations'], i = 0;
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              var whoforcolor=['text-primary','text-warning','text-danger','text-primary','text-warning','text-danger']
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              setInterval(function(){
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              $('#whofor').fadeOut(function(){
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              $(this).html(arrwhofor[i=(i+1)%arrwhofor.length]).fadeIn();
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              $(this).removeClass().addClass(whoforcolor[i])
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              });
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              // 3 seconds
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              }, 3500);
+            </script>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 ">
+            <h1 class="editable">Easy to Manage</h1>
+            <p class="lead editable">Manage your marketing efforts with ease. Add new content or make changes to existing content whenever you require them. No more waiting for the IT people to make time. All our solutions are built for anyone with basic computer literacy. If you can write and send an email you know enough.</p>
+          </div>
+          <div class="col-md-6">
+            <h1 class="editable">Hard to Break</h1>
+            <p class="lead editable">Say goodbye to website maintenance problems.&nbsp;A broken or compromised website can harm your organisation&#39;s reputation and cost you time and money to fix it. &nbsp;Eliminating security risks to the hosting environment from the outset, we remove the most common problems. &nbsp;Keeping it simple, keeps your site safe.</p>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h1 class="editable">Designed For All Screens</h1>
+            <p class="lead editable">Your website design will be optimised for any screen size. More people are browsing the web on smartphones, tablets and smart TVs.</p>
+          </div>
+          <div class="col-md-6">
+            <h1 class="editable">Built To Load Fast</h1>
+            <p class="lead editable">People are easily distracted and are likely to click away from a slow loading site. Google consider page load speed when they determine which sites to return in search results.</p>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h1 class="editable editable">Super Scaleable Hosting</h1>
+            <p></p>
+            <p class="lead">Our cloud hosted websites are very scaleable. If you are lucky enough
+              to get a huge increase in traffic to your site your visitors will not see
+              any loss in performance. Your site will not fall over and become temporarily
+              unavailable or require any expensive upgrade to handle the load.</p>
+          </div>
+          <div class="col-md-6">
+            <h1 class="editable">Enthusiastic Support, then some</h1>
+            <p class="lead editable">We don&#39;t expect anything to go wrong but if it does you can rest assured that our response will be professional, timely and decisive.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <img class="editable" width="300" height="186" src="/uploads/autism.4x622.jpg" />
+            <h2 class="editable">All Our Services</h2>
+            <p class="lead editable">We have alot of expertise and can therefore build more than just simple websites. If you need e-commerce, email hosting, content marketing then we need to talk.</p>
+          </div>
+          <div class="col-md-4">
+            <img class="editable" src="/uploads/2048.jpg" width="300" height="186" />
+            <h2 class="editable">We are Fanatics For All Sites Static</h2>
+            <p class="lead editable">Lorem ipsum dolor sit amet, consectetur adipisici elit,<br />sed eiusmod tempor incidunt ut labore et dolore magna aliqua.<br />Ut enim ad minim veniam, quis nostrud</p>
+          </div>
+          <div class="col-md-4">
+            <img class="editable" src="https://lh3.googleusercontent.com/-ZcuN1uvp2iA/VYV6dUWEhtI/AAAAAAAAACk/LfoZ0dPSKbw/s300/Attractive.png" />
+            <h2 class="editable">Building Together. It&#39;s How We Work</h2>
+            <p class="lead editable">A lot of things need to happen to get your website live and delivering your goals. We have a tried and tested system that works well for you the client and us the service provider. When everyone follows the agreed roadmap and sticks to the rules then everything runs smoothly and the results live up to everyone&#39;s expectations. More...</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- FRONTPAGE TO HERE -->
+  </body>
+
+</html>
