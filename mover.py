@@ -14,4 +14,3 @@ for src_dir, dirs, files in os.walk(root_src_dir):
         if os.path.exists(dst_file):
             os.remove(dst_file)
         shutil.move(src_file, dst_dir)
-
