@@ -1,5 +1,5 @@
 ---
-title: Not So Faast
+title: Not So Fast
 tags: "blogging, eating, sleeping"
 ---
 
