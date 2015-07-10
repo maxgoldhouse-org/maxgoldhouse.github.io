@@ -1,0 +1,4 @@
+---
+title: A better title than the previous title
+tags: blogging, eating, sleeping
+---
