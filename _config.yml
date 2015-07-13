@@ -36,13 +36,14 @@ prose:
             placeholder: 'Choose Tags'
             alterable: true
             options: ['Red','Green','Blue']
+      - name: 'SEO Description'
+        field:
+          element: 'text'
+          label: 'SEO Description'
+          help: 'Shows in Search Engine Listings'
       - name: 'weight'
         field:
           element: 'number'
           label: 'Page Weight'
           help: 'Used for sorting subpages in listings'
-      - name: 'weight'
-        field:
-          element: 'text'
-          label: 'SEO Description'
-          help: 'Shows in Search Engine Listings'
+
