@@ -12,11 +12,11 @@ prose:
  #   - /_includes
   metadata:
     _posts:
-      #- name: 'layout'
-        #field:
-          #element: 'select'
-          #label: 'Template'
-          #options: 'Full width','Right Sidebar ','Left Sidebar'
+      - name: 'layout'
+        field:
+          element: 'select'
+          label: 'Template'
+          options: ['Full width','Right Sidebar ','Left Sidebar']
       - name: 'title'
         field:
           element: 'text'
