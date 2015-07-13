@@ -14,8 +14,9 @@ prose:
     _posts:
       - name: 'layout'
         field:
-          element: 'hidden'
-          value: 'page'
+          element: 'select'
+          label: 'Template'
+          options: 'Full width','Right Sidebar ','Left Sidebar'
       - name: 'title'
         field:
           element: 'text'
@@ -38,3 +39,9 @@ prose:
           label: 'Page Weight'
           help: 'Used for sorting subpages in listings'
           value: 50
+      - name: 'weight'
+        field:
+          element: 'text'
+          label: 'SEO Description'
+          help: 'Shows in Search Engine Listings'
+          
