@@ -16,8 +16,8 @@ prose:
         field:
           element: 'select'
           label: 'Template'
-          #options: ['Full Width','Right Sidebar','Left Sidebar',]
-          options: 'http://maxgit.maxgoldhouse.com/metadata/post_templates.jsonp'
+          options: ['Full Width','Right Sidebar','Left Sidebar']
+          #options: 'http://maxgit.maxgoldhouse.com/metadata/post_templates.jsonp'
       - name: 'title'
         field:
           element: 'text'
