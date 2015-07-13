@@ -31,7 +31,7 @@ prose:
           options: ['','Cloud','Jekyll','AppEngine']
       - name: 'tags'
         field:
-            element: 'select'
+            element: 'multiselect'
             label: 'Tags'
             placeholder: 'Choose Tags'
             alterable: true
