@@ -26,14 +26,16 @@ prose:
         field:
           element: 'select'
           label: 'Category'
-          options: ['Cloud','Jekyll','AppEngine']
+          placeholder: 'Choose Category'
+          alterable: true
+          options: ['','Cloud','Jekyll','AppEngine']
       - name: 'tags'
         field:
             element: 'multiselect'
             label: 'Tags'
             placeholder: 'Choose Tags'
             alterable: true
-            #options: 'http://codeship.com/documentation/metadata/tags.jsonp'
+            options: ['Red','Green','Blue']
       - name: 'weight'
         field:
           element: 'number'
