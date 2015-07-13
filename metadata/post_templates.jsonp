@@ -2,27 +2,17 @@ callback([
 
   {
     "name": "Full Width",
-    "value": "Full Width"
+    "value": "Full_Width"
   }, 
 
   {
-    "name": "Right sidebar",
-    "value": "Right Sidebar"
+    "name": "Right Sidebar",
+    "value": "Right_Sidebar"
   }, 
 
   {
     "name": "Left Sidebar",
-    "value": "Left Sidebar"
-  }, 
-
-  {
-    "name": "Enq Form Right Top",
-    "value": "Enq Form Right Top"
-  }, 
-
-  {
-    "name": "Enq Form Right Bottom",
-    "value": "Enq Form Right Bottom"
+    "value": "Left_Sidebar"
   }
 
 ])
