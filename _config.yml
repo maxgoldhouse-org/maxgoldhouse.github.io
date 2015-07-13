@@ -26,7 +26,7 @@ prose:
         field:
           element: 'select'
           label: 'Category'
-          options: 'http://codeship.com/documentation/metadata/categories.jsonp'
+          options: ['Cloud','Jekyll','AppEngine']
       - name: 'tags'
         field:
             element: 'multiselect'
@@ -39,7 +39,6 @@ prose:
           element: 'number'
           label: 'Page Weight'
           help: 'Used for sorting subpages in listings'
-          value: 50
       - name: 'weight'
         field:
           element: 'text'
