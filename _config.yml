@@ -25,7 +25,7 @@ prose:
         field:
           element: 'select'
           label: 'Category'
-          #options: 'http://codeship.com/documentation/metadata/categories.jsonp'
+          options: 'http://codeship.com/documentation/metadata/categories.jsonp'
       - name: 'tags'
         field:
             element: 'multiselect'
