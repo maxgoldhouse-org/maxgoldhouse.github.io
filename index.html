@@ -77,7 +77,14 @@
           <div class="col-md-12 text-center" style="xbackground-image: url('https://lh3.googleusercontent.com/-GBvSCPfRO3g/VYUbTQFQnEI/AAAAAAAAAA8/YaFXmIxCkBM/s36/toptile.png');background-repeat: repeat-x;">
             <p class="price editable">Expertly Crafted<br />Websites &amp; Web Apps For<br /><span class="text-warning" id="whofor" style="display: inline; opacity: 0;">SMBs</span> <!--<br>Hosted Securely in the Cloud--><br /><span style="font-size: 0.6em"><!--Prices from &pound;1200 --></span><br />&nbsp;</p>
             <script>
-              var arrwhofor = ['Solo Entrepreneurs','SMBs','Charities and Campaigners','Therapists','Teachers and Trainers','Modern Organisations'], i = 0;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      }, 3500);
+              var arrwhofor = ['Solo Entrepreneurs','SMBs','Charities and Campaigners','Therapists','Teachers and Trainers','Modern Organisations'], i = 0;
+              var whoforcolor=['text-primary','text-warning','text-danger','text-primary','text-warning','text-danger']
+              setInterval(function(){
+              $('#whofor').fadeOut(function(){
+              $(this).removeClass().addClass(whoforcolor[i])
+               });
+               // 3 seconds
+                }, 3500);
             </script>
           </div>
         </div>
