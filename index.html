@@ -91,6 +91,13 @@
         </div>
       </div>
     </div>
+    <ul class="repeatables">
+  {% for post in site.posts %}
+    <li class="editable">
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
     <div class="section">
       <div class="container">
         <div class="row">
