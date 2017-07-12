@@ -1,4 +1,6 @@
-
+---
+layout: post
+---
 
 We have some important things to say so we will say them here, on our blog
 
