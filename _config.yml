@@ -46,3 +46,10 @@ prose:
           element: 'number'
           label: 'Page Weight'
           help: 'Used for sorting subpages in listings'
+          
+# -----------
+# CloudCannon
+_editable_regions:
+  image:
+    url_src: true
+    
