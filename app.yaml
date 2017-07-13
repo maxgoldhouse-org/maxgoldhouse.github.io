@@ -7,9 +7,10 @@ threadsafe: true
 default_expiration: 7d
 
 handlers:
-#  - url: /
-#    static_files: static/index.html
-#    upload: static/index.html
+  - url: /
+    static_files: static/index.html
+    upload: static/index.html
+
   - url: /
     static_dir: static
   - url: /favicon.ico
