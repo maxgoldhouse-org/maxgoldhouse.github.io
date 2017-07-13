@@ -6766,7 +6766,11 @@ body {
 .cover .cover-image.background-image-fixed,
 .cover .cover-image.cover-image-fixed {
   background-attachment: fixed;
+
 }
+
+p.price span{font-size: 2em;}
+
 @media screen and (min-width: 320px){.cover p{font-size: 1em; line-height: 0.65; color: white; }}
 @media screen and (min-width: 480px){.cover p{font-size: 1.3em; line-height: 1.2 }}
 @media screen and (min-width: 768px){.cover p{font-size: 3em; line-height: 1.2 }}
