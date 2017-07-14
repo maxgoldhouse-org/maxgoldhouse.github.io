@@ -13,6 +13,9 @@ handlers:
 
   - url: /
     static_dir: static
+  - url: /blog/(.+)
+    static_files: static/blog/\1/index.html
+    upload: static/blog/(.+)/index.html
   - url: /favicon.ico
     static_files: favicon.ico
     upload: favicon.ico
