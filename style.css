@@ -6769,7 +6769,7 @@ body {
 
 }
 
-p.price span{font-size: 2em; text-shadow: 2px 2px black;}
+p.price span{font-size: 1.4em; text-shadow: 2px 2px black;}
 
 @media screen and (min-width: 320px){.cover p{font-size: 1em; line-height: 0.65; color: white; }}
 @media screen and (min-width: 480px){.cover p{font-size: 1.3em; line-height: 1.2 }}
