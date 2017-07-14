@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Not So Fast
 tags: "blogging, eating, sleeping"
 ---
