@@ -7,15 +7,17 @@ threadsafe: true
 default_expiration: 7d
 
 handlers:
+  - url: /blog/(.*)
+    static_files: static/blog/\1/index.html
+    upload: static/blog/(.+)/index.html
+    
   - url: /
     static_files: static/index.html
     upload: static/index.html
 
   - url: /
     static_dir: static
-  - url: /blog/(.+)
-    static_files: static/blog/\1/index.html
-    upload: static/blog/(.+)/index.html
+
   - url: /favicon.ico
     static_files: favicon.ico
     upload: favicon.ico
